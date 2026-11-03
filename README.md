@@ -974,7 +974,7 @@ Anyone can clone and run this project locally on their machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Vikramjeetbarman/OopsDocumentSearchSystem.git
+git clone https://github.com/Vikramjeetbarman/OopDocumentSearchSystem.git
 cd OopsDocumentSearchSystem
 ```
 
