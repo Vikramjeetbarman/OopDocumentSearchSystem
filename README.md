@@ -42,10 +42,10 @@ This project is maintained by **Vikramjeet Barman**. See the build instructions 
 
 - [Features](#-key-features)
 - [Architecture](#-system-architecture)
-- [Build and run](#-getting-started)
+- [Installation & Running](#-getting-started)
 - [Project structure](#-project-structure)
 - [Screenshots](#-screenshots)
-- [GitHub setup](#-publish-to-your-own-github-repository)
+- [Cloning & Setup](#-clone--installation)
 
 ---
 
@@ -967,15 +967,50 @@ Feel free to open an issue or submit a pull request.
 
 ---
 
-# Publish to Your Own GitHub Repository
+# 🚀 Clone & Installation
 
-This project is published in the private `Vikramjeetbarman/OopsDocumentSearchSystem` repository. From this checkout, review `git status` and push updates with:
+Anyone can clone and run this project locally on their machine.
+
+### 1. Clone the Repository
 
 ```bash
-git push
+git clone https://github.com/Vikramjeetbarman/OopsDocumentSearchSystem.git
+cd OopsDocumentSearchSystem
 ```
 
-The repository starts with empty user and document data files. Check those files and screenshots for private content before committing future changes.
+### 2. Build the Project
+
+Ensure you have a **C++17 compiler** and **CMake (>= 3.10)** installed.
+
+**macOS / Linux:**
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+**Windows (PowerShell / Command Prompt):**
+```bash
+cmake -S . -B build
+cmake --build build --config Release
+```
+
+### 3. Run the Application
+
+Run the executable directly from the project root directory:
+
+**macOS / Linux:**
+```bash
+./build/cli
+```
+
+**Windows:**
+```bash
+.\build\Release\cli.exe
+# or: .\build\Debug\cli.exe
+```
+
+> [!NOTE]
+> The repository starts with empty data files in `data/`. User and document files will automatically be created and maintained locally as you use the application.
 
 ---
 
