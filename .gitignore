@@ -1,0 +1,11 @@
+# Build
+build
+
+*.exe
+*.out
+
+
+.vscode/
+.DS_Store
+screenshots/*.png
+!screenshots/welcome.png
