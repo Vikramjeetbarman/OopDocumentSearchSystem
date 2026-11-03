@@ -925,15 +925,26 @@ Results
 
 ---
 # 📷 Screenshots
-
+### **Welcome Screen**
 ![Welcome Screen](screenshots/welcome.png)
-![Admin Dashboard](screenshots/adminDashboard.png)
-![Analytics](screenshots/analytics.png)
-![Document](screenshots/document.png)
-![Search History](screenshots/searchHistory.png)
-![Search Result](screenshots/searchResult.png)
-![User Dashboard](screenshots/userDashboard.png)
 
+### Admin Dashboard
+![Admin Dashboard](screenshots/adminDashboard.png)
+
+### Analytics
+![Analytics](screenshots/analytics.png)
+
+### Document
+![Document](screenshots/document.png)
+
+### Search History
+![Search History](screenshots/searchHistory.png)
+
+### Search Result
+![Search Result](screenshots/searchResult.png)
+
+### User Dashboard
+![User Dashboard](screenshots/userDashboard.png)
 # 🎯 Learning Outcomes
 
 This project demonstrates practical implementation of
