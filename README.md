@@ -953,14 +953,13 @@ Feel free to open an issue or submit a pull request.
 
 # Publish to Your Own GitHub Repository
 
-Create a new, empty **private** repository on GitHub named `OopsDocumentSearchSystem`, then review `git status` before publishing. This checkout already has an `origin` remote configured for its existing upstream; keep it unchanged and add your repository under a separate remote name:
+This project is published in the private `Vikramjeetbarman/OopsDocumentSearchSystem` repository. From this checkout, review `git status` and push updates with:
 
 ```bash
-git remote add personal https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u personal main
+git push
 ```
 
-Replace the URL with the clone URL GitHub gives your new repository. Pushing `main` this way also sends its existing history. To keep the new repository's history separate, publish a fresh initial commit containing the reviewed working tree instead of pushing the existing branch history.
+The repository starts with empty user and document data files. Check those files and screenshots for private content before committing future changes.
 
 ---
 
