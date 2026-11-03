@@ -924,10 +924,15 @@ Results
 ```
 
 ---
-
 # 📷 Screenshots
 
-![Welcome screen](screenshots/welcome.png)
+![Welcome Screen](screenshots/welcome.png)
+![Admin Dashboard](screenshots/adminDashboard.png)
+![Analytics](screenshots/analytics.png)
+![Document](screenshots/document.png)
+![Search History](screenshots/searchHistory.png)
+![Search Result](screenshots/searchResult.png)
+![User Dashboard](screenshots/userDashboard.png)
 
 # 🎯 Learning Outcomes
 
